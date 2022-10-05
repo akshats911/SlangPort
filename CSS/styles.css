@@ -108,11 +108,22 @@ p{
     padding-bottom: 5%;
     color: #fff;
 }
+
+.about-p{
+    color: #1B1A17;
+    padding: 0% 10%;
+}
 .title-img{
     width: 30%;
-    transform: rotate(25deg);
     position: absolute;
     right: 100px;
+    border-radius: 10%;
+}
+
+.profile-pic{
+    border-radius: 5%;
+    width: 30%;
+    
 }
 
 /*testimonials*/
@@ -137,7 +148,17 @@ p{
 
 /*Popular slang*/
 
+/* SOCIALS IN FOOTER */
 
+.footer-link > img{
+    width: 2.5rem;
+    filter: grayscale();
+    transition: all 0.2s ease;
+}
+
+.footer-link > img:hover{
+    filter: grayscale(0);
+}
 
 @media (max-width:1028px) {
 
@@ -151,5 +172,6 @@ p{
     }
     
 }
+
 
 
